@@ -44,7 +44,7 @@ echo "sõnade arv laused - ".str_word_count($tekst);//sõnade arv laused
 //Iseseisvalt - teksti kärpimine
 echo "<br>";
 $tekst2="    Pohitoetus voetakse ara 11.11 kui volgnevused ei ole parandatud     ";
-echo trim($tekst2, "P, a, k..n, w");
+echo trim($tekst2, "P, o, k..n, w");
 echo "<br>";
 echo ltrim($tekst2);
 echo "<br>";
@@ -62,11 +62,13 @@ echo '<br>';
 echo substr($tekst2, 4, -13);
 echo '<br>';
 echo substr($tekst2, -8, 7);
+echo '<br>';
 //
 print_r(str_word_count($tekst2, 1));
 echo '<br>';
 //
 $sona = str_word_count($tekst2, 1);
+print_r($sona);
 echo $sona[2];
 echo '<br>';
 //
