@@ -69,6 +69,7 @@ echo '<br>';
 //
 $sona = str_word_count($tekst2, 1);
 print_r($sona);
+echo '<br>';
 echo $sona[2];
 echo '<br>';
 //
