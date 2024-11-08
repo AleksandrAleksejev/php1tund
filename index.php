@@ -11,7 +11,7 @@
 </header>
 <?php
 //nav
-include ("nav.php")
+include ("nav.php");
 ?>
 
 
@@ -27,17 +27,18 @@ if(isset($_GET["leht"])){
 }
 
 
-include("content/proov.php");
+
 ?>
 </section>
+
+//jalus
 <?php
-    echo "Aleksandr Aleksejev &copy; ";
-    echo date("Y");
+    include ("footer.php");
+    include ("kodu.php");
 ?>
 
 
 </body>
 </html>
-<?php
 
 

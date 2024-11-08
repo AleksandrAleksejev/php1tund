@@ -1,7 +1,7 @@
 <nav>
     <ul>
         <li>
-            <a href="?Leht=index.php">Kodu</a>
+            <a href="?Leht=kodu.php">Kodu</a>
         </li>
         <li>
             <a href="?leht=proov.php">Tekstfunktsiooni</a>

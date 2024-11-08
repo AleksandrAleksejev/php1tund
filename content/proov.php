@@ -7,7 +7,7 @@ echo $muutaja;
 echo "</strong>";
 echo "<br>";
 //Tekstifunktsioonid
-echo "<h2>Tekstifunktsioonid<h2>";
+echo "<h2>Tekstifunktsioonid</h2>";
 $tekst="Esmaspäev on 4.november";
 echo $tekst;
 //kõik tähed on suured
