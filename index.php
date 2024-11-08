@@ -36,8 +36,6 @@ if(isset($_GET["leht"])){
 <?php
     //jalus
     include ("footer.php");
-    echo "<br>";
-    include ("content/kodu.php");
 ?>
 
 
