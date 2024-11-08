@@ -23,13 +23,19 @@ nav li a:hover {
 }
 
 footer{
-    left: 20px;
+
     background-color: #333;
     color: white;
-    height: 2em;
     left: 0;
     position: fixed;
     font-size: small;
     width: 100%;
 
+}
+header {
+}
+div#kodu{
+    padding: 2%;
+    border: solid 1pt grey;
+    
 }

@@ -1,5 +1,5 @@
 <?php
-echo "Mõistatus. Euroopa riik";
+echo "<h2>Mõistatus. Euroopa riik</h2>";
 //6 подсказок при помощи текстовых функуий
 // выводить список <ul> / <ol>
 $riik="Estonia";

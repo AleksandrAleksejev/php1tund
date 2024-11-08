@@ -6,9 +6,10 @@
     <link rel="stylesheet" type="text/css" href="style/style1.css">
 </head>
 <body>
-<header>
-    <h1>PHPtunnitööd</h1>
-</header>
+<?php
+//header
+include ("header.php");
+?>
 <?php
 //nav
 include ("nav.php");
@@ -31,10 +32,12 @@ if(isset($_GET["leht"])){
 ?>
 </section>
 
-//jalus
+
 <?php
+    //jalus
     include ("footer.php");
-    include ("kodu.php");
+    echo "<br>";
+    include ("content/kodu.php");
 ?>
 
 
