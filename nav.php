@@ -12,6 +12,12 @@
         <li>
             <a href="?leht=ajafunktsionid.php">Ajafunktsionid</a>
         </li>
+        <li>
+            <a href="?leht=pildid.php">Pildid</a>
+        </li>
+        <li>
+            <a href="?leht=massiivid.php">Massiivid</a>
+        </li>
     </ul>
 
 
