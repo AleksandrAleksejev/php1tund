@@ -19,7 +19,7 @@
             ?>
         </select>
         <input type="submit" value="Vaata">
-        <input type="submit" value="Random">
+        <input name="random" type="submit" value="Random">
     </form>
     <?php
     if(!empty($_POST['pildid'])){
